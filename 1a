@@ -1,0 +1,38 @@
+Installing on Windows:
+
+Before start installation you need to make sure that your system supports minimum hardware requirements.
+
+System Requirements:
+	
+Windows 10 or 11 (64-bit)
+Disk Space: 1.64 GB (does not include IDE/tools)
+Command Line Tools: PowerShell 5.0 or newer
+Git for Windows (optional) 
+
+Getting Flutter SDK:
+
+Download flutter manually using link  :
+https://storage.googleapis.com/flutter_infra_release/releases/stable/windows/flutter_windows_3.32.4-stable.zip
+Extract the File in desired location
+Update the path permanently (the following is for Windows 10):
+Open Control Panel and drill down to Desktop App ➪ User Accounts ➪ User Accounts ➪ Change My Environment Variables.
+In the Edit environment variable, click the New button.
+ii. Type the path Ex: C:\Users\WindowsUserName\flutter\bin.
+iii. Click the OK button and then close the Environment Variables screen.
+
+Verify Flutter Installation
+
+Open Command Prompt or PowerShell.
+Run: flutter doctor
+This checks dependencies and shows you what needs to be fixed (example: installing Android Studio, SDKs, etc.)
+
+Install Dart Plugin
+
+You don’t need to install Dart separately — it comes bundled with Flutter.
+When you install Flutter, Dart SDK is included in flutter/bin/cache/dart-sdk.
+
+Install an IDE (Optional but recommended)
+
+Visual Studio Code → install Flutter and Dart extensions.( Ctrl+ Shift +X)
+OR
+Android Studio → install Flutter and Dart plugins from Preferences
